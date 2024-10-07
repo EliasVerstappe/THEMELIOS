@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="ReusableControlsLib.Notepad"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ReusableControlsLib"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FontFamily="Consolas"
+             FontSize="{StaticResource NormalFontSize}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <RichTextBox Width="20" Grid.Column="0" Background="LightGray" BorderBrush="Transparent" BorderThickness="0">
+            <FlowDocument>
+                <Paragraph TextAlignment="Right">
+                    <Run Text="1"/>
+                    <Run Text="2"/>
+                    <Run Text="3"/>
+                    <Run Text="4"/>
+                    <Run Text="5"/>
+                    <Run Text="6"/>
+                    <Run Text="7"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+        <Grid Grid.Column="1">
+
+            <RichTextBox BorderBrush="Transparent" BorderThickness="0" Name="CodeTextBox">
+                <FlowDocument>
+                    <Paragraph x:Name="CodeParagraph"/>
+
+
+                </FlowDocument>
+            </RichTextBox>
+
+            <Border Name="ActiveLineHighlighter" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1" Background="Beige" Opacity=".5" Width="{Binding ElementName=CodeTextBox, Path=Width}" Height="20"/>
+
+        </Grid>
+
+    </Grid>
+    
+    
+</UserControl>

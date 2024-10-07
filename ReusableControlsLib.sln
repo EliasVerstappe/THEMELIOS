@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReusableControlsLib", "ReusableControlsLib\ReusableControlsLib.csproj", "{79B0A19B-7A8A-4FB5-B651-5700506A2287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReusableControlsLib.Usage", "ReusableControlsLib.Usage\ReusableControlsLib.Usage.csproj", "{D3E161CE-063A-48E7-A196-F45ED381B8A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B0A19B-7A8A-4FB5-B651-5700506A2287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B0A19B-7A8A-4FB5-B651-5700506A2287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B0A19B-7A8A-4FB5-B651-5700506A2287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B0A19B-7A8A-4FB5-B651-5700506A2287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E161CE-063A-48E7-A196-F45ED381B8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E161CE-063A-48E7-A196-F45ED381B8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E161CE-063A-48E7-A196-F45ED381B8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E161CE-063A-48E7-A196-F45ED381B8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C39B31EE-D227-4BBF-8B15-73BF7BFF4B3F}
+	EndGlobalSection
+EndGlobal
