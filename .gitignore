@@ -1,1 +1,11 @@
 .vs
+
+.\ReusableControlsLib\bin
+.\ReusableControlsLib\obj
+.\ReusableControlsLib\Properties
+.\ReusableControlsLib\ReusableControlsLib.csproj.user
+
+.\ReusableControlsLib.Usage\bin
+.\ReusableControlsLib.Usage\obj
+.\ReusableControlsLib.Usage\Properties
+.\ReusableControlsLib.Usage\ReusableControlsLib.Usage.csproj.user
